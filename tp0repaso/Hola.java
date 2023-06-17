@@ -1,3 +1,4 @@
+package tp0repaso;
 public class Hola{
   public static void main(String[] args){
     System.out.println("Bienvenidos a POO Practica");
