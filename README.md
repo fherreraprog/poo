@@ -1,8 +1,12 @@
-# Bienvenidos a Programacion Orientada a Objetos - Practica
-Espacio de trabajo para la materia Programacion Orientada a Objetos - Profesor Lic. Franco Herrera
+# Bienvenidos a POO práctica!
 
+Vamos a trabajar con un **codespace** creado en **GitHub**  que ya nos trae todo configurado para poder cursar la materia y solo enfocarnos en programar.
+Es importante que tenga una cuenta en la pagina de GitHub para poder acceder al repositorio.
+
+# Modalidad
 Usaremos el esquema de workspace como esta creado.
-Podran realizar las pruebas de unidad que estan disponibles, para poner a prueba sus codigos.
-Espero tengan una buena cursada.
+Podrán realizar las pruebas de unidad que estan disponibles, para poner a prueba sus códigos.
+Les deseo una buena cursada.
 
 Lic. Franco Herrera.
+
