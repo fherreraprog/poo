@@ -1,13 +1,13 @@
-- name: Workflow Housekeeper
-  # You may pin to the exact commit or the version.
-  # uses: JosiahSiegel/workflow-housekeeper@f73f78d6cd72f7e6552ddc40838d12922d5dded2
-  uses: JosiahSiegel/workflow-housekeeper@v1.0.4
-  with:
-    # Ignore runs from workflows currently in ./github/workflow
-    ignore-branch-workflows: # optional
-    # Period of time to maintain history. E.g. "2 weeks", "3 days", etc.
-    retention-time: # optional
-    # Number of latest runs to keep
-    retain-run-count: # optional
-    # Only list runs pending deletion
-    dry-run: # optional
+ - name: Remove artifacts
+      # You may pin to the exact commit or the version.
+      # uses: c-hive/gha-remove-artifacts@24dc23384a1fa6a058b79c73727ae0cb2200ca4c
+      uses: c-hive/gha-remove-artifacts@v1.2.0
+      with:
+        # Artifacts older than this will be deleted (e.g. "2 months", "1 day"). Parsed by moment.
+        age: "1 day"
+        # Access token for the repository, available under the same name in secrets.
+        GITHUB_TOKEN: ${{ github.token }}
+        # true/false. If enabled, tag build artifacts (e.g. release artifacts) will be kept.
+        skip-tags: false
+        # Keep the specified number of artifacts even if they are older than the age.
+        skip-recent: 1
