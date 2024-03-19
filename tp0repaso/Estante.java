@@ -1,3 +1,4 @@
+package tp0repaso;
 public class Estante {
 
     private Producto[] productos;
@@ -12,7 +13,6 @@ public class Estante {
             productos[numProductos++] = producto;
         }
     
-
     public void mostrarProductos() {
         for (int i = 0; i < numProductos; i++) {
             System.out.println(productos[i]);

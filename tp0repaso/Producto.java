@@ -1,5 +1,4 @@
-package tp1;
-
+package tp0repaso;
 public class Producto {
 
     private String nombre;
@@ -36,7 +35,6 @@ public class Producto {
         this.cantidad = cantidad;
     }
 
-    @Override
     public String toString() {
         return "Producto{" + "nombre=" + nombre + ", precio=" + precio + ", cantidad=" + cantidad + '}';
     }
