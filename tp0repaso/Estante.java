@@ -24,7 +24,7 @@ public class Estante {
                 return productos[i];
             }
         }
-        return null;
+        return null;/*podemos retornar false or true pero nos sirve el producto*/
     }
     public void eliminarProducto(String nombre) {
         int pos = buscarPosicionProducto(nombre);
