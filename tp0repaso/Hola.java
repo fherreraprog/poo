@@ -8,8 +8,4 @@ public class Hola{
      System.out.println( Hola.prueba());
     
   }
-  public static String prueba()
-  {
-    return true ? "si" : "No";
-  }
 }
