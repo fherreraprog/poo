@@ -9,7 +9,7 @@ Les deseo una buena cursada.
 
 # Discord 
 
-## [Consultas](https://discord.com/channels/833776922600800277/1087478617778429992)
+## [Consultas](https://discord.gg/tGZQmzRP)
 
 Lic. Franco Herrera.
 
