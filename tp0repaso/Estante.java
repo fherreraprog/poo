@@ -15,7 +15,7 @@ public class Estante {
     
     public void mostrarProductos() {
         for (int i = 0; i < numProductos; i++) {
-            System.out.println(productos[i]);
+            System.out.println("aaa"+productos[i]);
         }
     }
     public Producto buscarProducto(String nombre) {
