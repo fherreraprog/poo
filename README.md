@@ -1,18 +1,45 @@
 <p align="center">
   <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780"/>
 </p>
-# Bienvenidos a POO práctica!
 
-Vamos a trabajar con un **codespace** creado en **GitHub**  que ya nos trae todo configurado para poder cursar la materia y solo enfocarnos en programar.
-Es importante que tengan una cuenta en la pagina de GitHub para poder utilizarlo.
+# Bienvenidos a la Práctica de Programación Orientada a Objetos (POO)
 
-# Modalidad
-Usaremos el esquema de workspace como esta creado, sobre los trabajos prácticos.
-Les deseo una buena cursada.
+¡Hola a todos! En este curso trabajaremos con **GitHub Codespaces**, un entorno completamente configurado para que puedan concentrarse únicamente en lo más importante: aprender y practicar programación orientada a objetos.
 
-# Discord 
+## 🚀 ¿Por qué GitHub Codespaces?
 
-[Consultas](https://discord.gg/tGZQmzRP)
+GitHub Codespaces nos permite trabajar en un entorno de desarrollo listo para usar, directamente desde la nube. Algunas ventajas de utilizar esta herramienta son:
+- **Sin configuración compleja**: Todo está preconfigurado, lo que elimina la necesidad de instalar herramientas adicionales en sus computadoras.
+- **Entorno real de desarrollo**: Trabajaremos con herramientas profesionales utilizadas en la industria, lo que los prepara para futuros proyectos y empleos.
+- **Portabilidad**: Pueden acceder a su workspace desde cualquier dispositivo con conexión a Internet.
+- **Colaboración**: GitHub facilita la colaboración en proyectos, lo que les permitirá aprender a trabajar en equipo.
 
-Lic. Franco Herrera.
+## 🔒 Repositorios Privados y Feedback
 
+Cada estudiante trabajará en un repositorio privado, que será creado a través de un **assignment** en [GitHub Classroom](https://classroom.github.com/). Estos repositorios serán accesibles únicamente por los profesores para garantizar:
+- **Feedback personalizado**: Podremos revisar su código y proporcionarles observaciones detalladas sobre su trabajo.
+- **Privacidad**: Sus proyectos serán visibles solo para ustedes y el equipo docente.
+
+Es fundamental que tengan una cuenta activa en [GitHub](https://github.com/) para participar y acceder a sus repositorios asignados.
+
+## 🖥️ Modalidad de Trabajo
+
+Utilizaremos el esquema de **workspaces** organizado por los diferentes trabajos prácticos. Este esquema les guiará a través de las actividades prácticas, mientras aplican los conceptos aprendidos en clase.
+
+## 📌 Objetivos
+
+Nuestro objetivo principal es que, además de aprender los fundamentos de la programación orientada a objetos, se familiaricen con:
+- **Flujos de trabajo modernos** en Git y GitHub.
+- **Herramientas de desarrollo profesional**, como entornos preconfigurados.
+- Buenas prácticas de programación y trabajo colaborativo.
+
+## 🗣️ Consultas y soporte
+
+Si tienen alguna duda o consulta, no duden en contactarme a través del canal de **[Discord](https://discord.gg/tGZQmzRP)** del curso. Estaré disponible para resolver sus inquietudes y apoyarlos durante la cursada.
+
+---
+
+¡Les deseo una excelente cursada!  
+Atentamente,  
+**Lic. Franco Herrera**  
+Profesor de Práctica de POO
