@@ -1,5 +1,6 @@
-                <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780" />
-
+<p align="center">
+  <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780"/>
+</p>
 # Bienvenidos a POO práctica!
 
 Vamos a trabajar con un **codespace** creado en **GitHub**  que ya nos trae todo configurado para poder cursar la materia y solo enfocarnos en programar.
