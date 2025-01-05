@@ -70,7 +70,9 @@ Ventajas:
 Sencillo y fácil de usar.
 Compatible con diversas fuentes de entrada.
 Bien documentado.
+
 Desventajas:
+
 Puede generar problemas al mezclar tipos de datos sin limpiar el buffer.
 No es seguro en aplicaciones multihilo.
 
