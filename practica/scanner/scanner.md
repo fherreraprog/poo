@@ -48,11 +48,12 @@ Es una buena práctica cerrar el Scanner al finalizar su uso para liberar recurs
 java
 scanner.close();
 ```
-6. Manejo de excepciones
+## 6. **Manejo de excepciones**
+Voler a esta sección luego de que la teoria sea dictada.
 Es recomendable manejar errores para evitar que el programa falle si el usuario ingresa datos incorrectos:
-
+```
 java
-Copiar código
+
 try {
     System.out.print("Ingrese un número entero: ");
     int numero = scanner.nextInt();
@@ -62,47 +63,14 @@ try {
 } finally {
     scanner.close();
 }
-7. Ejemplo completo
-Este ejemplo combina varios tipos de datos:
-
-java
-Copiar código
-import java.util.Scanner;
-
-public class EjemploScanner {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("¿Cómo te llamas? ");
-        String nombre = scanner.nextLine();
-
-        System.out.print("¿Cuántos años tienes? ");
-        int edad = scanner.nextInt();
-        scanner.nextLine(); // Limpia el buffer
-
-        System.out.print("¿Cuánto pesas? ");
-        double peso = scanner.nextDouble();
-        scanner.nextLine(); // Limpia el buffer
-
-        System.out.print("¿Estás estudiando? (true/false): ");
-        boolean estudiando = scanner.nextBoolean();
-
-        System.out.println("Tu nombre es " + nombre);
-        System.out.println("Tienes " + edad + " años.");
-        System.out.println("Pesas " + peso + " kg.");
-        System.out.println("Estás estudiando: " + estudiando);
-
-        scanner.close();
-    }
-}
-8. Ventajas y desventajas de Scanner
+```
+## 7. **Ventajas y desventajas de Scanner**
 Ventajas:
 
 Sencillo y fácil de usar.
 Compatible con diversas fuentes de entrada.
 Bien documentado.
 Desventajas:
-
 Puede generar problemas al mezclar tipos de datos sin limpiar el buffer.
 No es seguro en aplicaciones multihilo.
 
