@@ -76,3 +76,6 @@ Desventajas:
 Puede generar problemas al mezclar tipos de datos sin limpiar el buffer.
 No es seguro en aplicaciones multihilo.
 
+## 8. **Video**
+
+
