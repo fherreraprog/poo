@@ -2,7 +2,7 @@
   <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780"/>
 </p>
 
-# Resumen del uso de la clase Scanner en Java
+# Uso de la clase Scanner en Java
 
 La clase `Scanner` pertenece al paquete `java.util` y se utiliza para leer datos de entrada desde diversas fuentes, como la consola (teclado), archivos y cadenas. Es una herramienta estándar en Java y muy útil para manejar datos ingresados por el usuario.
 
