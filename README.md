@@ -4,7 +4,7 @@
 
 # Bienvenidos a la Práctica de Programación Orientada a Objetos (POO)
 
-¡Hola a todos! En este curso trabajaremos con **GitHub Codespaces**, un entorno completamente configurado para que puedan concentrarse únicamente en lo más importante: aprender y practicar programación orientada a objetos.
+¡Hola a todos! En esta materia trabajaremos con **GitHub Codespaces**, un entorno completamente configurado para que puedan concentrarse únicamente en lo más importante: aprender y practicar programación orientada a objetos.
 
 ## 🚀 ¿Por qué GitHub Codespaces?
 
