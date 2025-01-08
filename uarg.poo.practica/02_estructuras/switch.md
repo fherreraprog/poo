@@ -65,7 +65,7 @@ public class EjemploSwitchString {
 }
 ```
 
-## **3 Novedades modernas (a partir de Java 12 y 17)**
+## **3. Novedades modernas (a partir de Java 12 y 17)**
 ### a) Expresiones switch
 El switch ahora puede devolver un valor, convirtiéndose en una expresión (no solo en una estructura de control). Esto elimina la necesidad de usar múltiples break y hace el código más limpio.
 
