@@ -35,7 +35,7 @@ Nuestro objetivo principal es que, además de aprender los fundamentos de la pro
 
 ## 🗣️ Consultas y soporte
 
-Si tienen alguna duda o consulta, no duden en contactarme a través del canal de **[Discord](https://discord.gg/tGZQmzRP)** del curso. Estaré disponible para resolver sus inquietudes y apoyarlos durante la cursada.
+Si tienen alguna duda o consulta, no duden en contactarme a través del canal de **[Discord](https://discord.gg/tGZQmzRP)**. Estaré disponible para resolver sus inquietudes y apoyarlos durante la cursada.
 
 ---
 
