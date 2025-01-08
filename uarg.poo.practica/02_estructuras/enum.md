@@ -21,3 +21,121 @@ Un `enum` se declara con la palabra clave `enum`.
 public enum Dia {
     LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO
 }
+```
+### Uso básico del enum:
+
+```java
+public class TestEnum {
+    public static void main(String[] args) {
+        Dia diaActual = Dia.MIERCOLES;
+
+        // Comparar con un valor del enum
+        if (diaActual == Dia.MIERCOLES) {
+            System.out.println("Es miércoles");
+        }
+
+        // Recorrer todos los valores del enum
+        for (Dia dia : Dia.values()) {
+            System.out.println(dia);
+        }
+    }
+}
+```
+### Salida:
+```java
+Es miércoles
+LUNES
+MARTES
+MIERCOLES
+JUEVES
+VIERNES
+SABADO
+DOMINGO
+```
+## 2. Métodos Útiles en enum:
+
+Los enum vienen con métodos predefinidos:
+
+values()
+Devuelve un arreglo con todos los valores del enum.
+```java
+for (Dia dia : Dia.values()) {
+    System.out.println(dia);
+}
+```
+
+ordinal()
+Devuelve el índice (basado en cero) de cada constante en el enum.
+```java
+System.out.println(Dia.LUNES.ordinal()); // 0
+System.out.println(Dia.MIERCOLES.ordinal()); // 2
+
+```
+name()
+Devuelve el nombre del valor como un String.
+
+```java
+System.out.println(Dia.LUNES.name()); // "LUNES"
+
+```
+valueOf(String)
+Convierte una cadena en un valor del enum.
+```java
+Dia dia = Dia.valueOf("VIERNES");
+System.out.println(dia); // VIERNES
+
+```
+## 3. Agregar campos y métodos al enum 
+Un enum puede tener variables, constructores y métodos personalizados.
+Esto lo hace más potente para representar información adicional asociada a cada constante.
+
+Ejemplo: Días de la semana con descripción
+```java
+public enum Dia {
+    LUNES("Inicio de semana"),
+    MARTES("Segundo día"),
+    MIERCOLES("Mitad de semana"),
+    JUEVES("Cerca del viernes"),
+    VIERNES("Fin de semana laboral"),
+    SABADO("Día de descanso"),
+    DOMINGO("Día familiar");
+
+    private final String descripcion;
+
+    // Constructor del enum
+    Dia(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    // Método para obtener la descripción
+    public String getDescripcion() {
+        return descripcion;
+    }
+}
+
+```
+Uso:
+
+```java
+public class TestEnum {
+    public static void main(String[] args) {
+        Dia dia = Dia.LUNES;
+        System.out.println(dia + ": " + dia.getDescripcion());
+
+        for (Dia d : Dia.values()) {
+            System.out.println(d + ": " + d.getDescripcion());
+        }
+    }
+}
+```
+Salida:
+```java
+LUNES: Inicio de semana
+MARTES: Segundo día
+MIERCOLES: Mitad de semana
+JUEVES: Cerca del viernes
+VIERNES: Fin de semana laboral
+SABADO: Día de descanso
+DOMINGO: Día familiar
+```
+
