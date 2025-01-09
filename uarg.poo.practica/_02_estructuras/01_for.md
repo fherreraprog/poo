@@ -129,7 +129,9 @@ import java.util.Arrays;
 public class ForConVar {
     public static void main(String[] args) {
         List<String> nombres = Arrays.asList("Ana", "Juan", "Pedro");
-        System.out.println("Nombre: " + nombre);
+
+        for (var nombre : nombres) {
+            System.out.println("Nombre: " + nombre);
         }
     }
 }
@@ -137,7 +139,8 @@ public class ForConVar {
 
 ### Características:
 
-1. Simplifica la declaración de variables.
+1. Simplifica la declaración de variables:
+   En lugar de declarar explícitamente el tipo de la variable (String en este caso), puedes usar var. Java deduce automáticamente el tipo basándose en el contexto, haciendo el código más compacto.
 2. Mejora la legibilidad del código.
 3. Solo se puede usar en variables locales con tipo evidente.
 
