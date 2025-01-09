@@ -129,8 +129,7 @@ import java.util.Arrays;
 public class ForConVar {
     public static void main(String[] args) {
         List<String> nombres = Arrays.asList("Ana", "Juan", "Pedro");
-
- d es          System.out.println("Nombre: " + nombre);
+        System.out.println("Nombre: " + nombre);
         }
     }
 }
