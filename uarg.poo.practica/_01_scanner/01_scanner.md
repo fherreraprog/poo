@@ -14,6 +14,7 @@ import java.util.Scanner;
 
 ## 2. **Crear una instancia de Scanner**
 Se crea una instancia utilizando el constructor y especificando la fuente de entrada. 
+
 Para leer del teclado:
 ```java
 Scanner scanner = new Scanner(System.in);
