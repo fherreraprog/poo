@@ -21,13 +21,13 @@ Scanner scanner = new Scanner(System.in);
 ```
 ## 3. **Lectura de datos**
 La clase Scanner ofrece métodos para leer distintos tipos de datos:
-
+```java
 nextLine(): Lee una línea completa.
 next(): Lee una palabra (sin incluir espacios).
 nextInt(): Lee un número entero.
-nextDouble(): Lee un número decimal.
+nextDouble(): Lee un número decimal. '
 nextBoolean(): Lee un valor booleano.
-
+```
 Ejemplo:
 ```java
 
