@@ -157,5 +157,5 @@ public class ForConVar {
 
 ---
 
-Este documento resume la evolución del bucle `for` en Java, mostrando cómo se han introducido nuevas funcionalidades y enfoques para adaptarse a las necesidades modernas de desarrollo.
+Este resumen de la evolución del bucle `for` en Java, mostrando cómo se han introducido nuevas funcionalidades y enfoques para adaptarse a las necesidades modernas de desarrollo.
 
