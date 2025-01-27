@@ -104,34 +104,12 @@ Los días del 1 al 5 se agrupan como "Día laborable".
 
 Los días 6 y 7 se agrupan como "Fin de semana".
 
-### c) Uso de bloques con yield
-Cuando necesitas realizar operaciones más complejas en un caso, puedes usar un bloque de código y devolver un valor con yield.
-
-```java
-
-String mensaje = switch (dia) {
-    case 1, 2, 3, 4, 5 -> "Día laborable";
-    case 6, 7 -> {
-        System.out.println("Es fin de semana");
-        yield "Tiempo para descansar";
-    }
-    default -> "Día no válido";
-};
-
-System.out.println(mensaje);
-```
-Explicación:
-
-Dentro de un bloque ({}), se puede realizar más de una operación.
-
-yield: Devuelve un valor para el switch cuando se usa un bloque.
-
 ## **4. Comparativa entre `switch` clásico y moderno**
 
 | Característica              | Clásico                     | Moderno (Java 12+)         |
 |-----------------------------|-----------------------------|-----------------------------|
 | Sintaxis                   | `case:` con `break`         | `case ->` con expresiones  |
-| Devolución de valores      | No                          | Con `yield`                |
+| Devolución de valores      | No                          | Con `yield` Curso 2026               |
 | Tipos soportados           | Números, caracteres         | Cadenas, números, etc.     |
 | Múltiples etiquetas por caso | No                          | Sí                        |
 
