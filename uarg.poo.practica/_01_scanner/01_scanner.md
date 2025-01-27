@@ -25,7 +25,7 @@ La clase Scanner ofrece métodos para leer distintos tipos de datos:
 nextLine(): Lee una línea completa.
 next(): Lee una palabra (sin incluir espacios).
 nextInt(): Lee un número entero.
-nextDouble(): Lee un número decimal. '
+nextDouble(): Lee un número decimal.
 nextBoolean(): Lee un valor booleano.
 ```
 Ejemplo:
@@ -78,6 +78,5 @@ Desventajas:
 Puede generar problemas al mezclar tipos de datos sin limpiar el buffer.
 No es seguro en aplicaciones multihilo.
 
-## 8. **Video**
 
 
