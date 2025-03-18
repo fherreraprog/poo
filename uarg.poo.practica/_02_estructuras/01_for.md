@@ -71,7 +71,3 @@ public class ForEach {
 | Java 5          | Bucle `for-each`    | Simplifica la iteración en colecciones        |
 
 
----
-
-Este resumen muestra parte de la evolución del bucle `for` en Java, mostrando cómo se han introducido nuevas funcionalidades y enfoques para adaptarse a las necesidades modernas de desarrollo.
-
