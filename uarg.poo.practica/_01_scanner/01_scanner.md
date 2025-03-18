@@ -46,15 +46,13 @@ scanner.nextLine(); // Limpia el salto de línea pendiente
 
 ## 5. **Cerrar el Scanner**
 Es una buena práctica cerrar el Scanner al finalizar su uso para liberar recursos:
-```
-java
+```java
 scanner.close();
 ```
 ## 6. **Manejo de excepciones**
 Voler a esta sección luego de que la teoria sea dictada.
 Es recomendable manejar errores para evitar que el programa falle si el usuario ingresa datos incorrectos:
-```
-java
+```java
 
 try {
     System.out.print("Ingrese un número entero: ");
