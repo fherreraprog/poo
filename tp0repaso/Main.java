@@ -5,7 +5,7 @@ import tp0repaso.modelo.Estante;
 import tp0repaso.vista.EstanteVista;
 
 /**
- * La clase Main se encarga de iniciar la aplicación y mostrar el menú interactivo.
+ * La clase Main se encarga de iniciar la aplicación y mostrar el menú interactivo .
  *
  * @author Franco
  * @version 1.0
