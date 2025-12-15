@@ -16,14 +16,6 @@
                 "chat.disableAIFeatures": true,
                 "inlineChat.accessibleDiffView": "off",
                 "terminal.integrated.initialHint": false,
-                "java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/17.0.0-tem",
-                "java.configuration.runtimes": [
-                    {
-                        "name": "JavaSE-17",
-                        "path": "/usr/local/sdkman/candidates/java/17.0.0-tem",
-                        "default": true
-                    }
-                ],
                 "projectManager.autoDetectJavaRuntime": false,
                 "projectManager.autoDetectJavaProjects": false,
                 "projectManager.autoDetectMavenProjects": false,
@@ -33,6 +25,5 @@
                 "vscjava.vscode-java-pack"
             ]
         }
-    },
-    "postCreateCommand": "java -version && echo 'Java 17 configurado correctamente'"
+    }
 }
