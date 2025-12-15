@@ -1,0 +1,6 @@
+{
+    "github.copilot.enabled": false,
+    "chat.disableAIFeatures": true,
+    "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/17.0.0-tem",
+    "projectManager.autoDetectJavaRuntime": false
+}
