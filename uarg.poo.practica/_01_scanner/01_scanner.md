@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780"/>
+<img width="2000px" height="1650px" alt="image" src="https://github.com/user-attachments/assets/1e5523d3-8ece-4319-a820-7c11f21f68e4" style="max-width: 100%; height: auto; max-height: 1650px;"/>
 </p>
 
 # Uso de la clase Scanner

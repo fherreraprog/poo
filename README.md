@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="6600" height="1650" alt="image" src="https://github.com/user-attachments/assets/1e5523d3-8ece-4319-a820-7c11f21f68e4" />
+  <img width="2000px" height="1650px" alt="image" src="https://github.com/user-attachments/assets/1e5523d3-8ece-4319-a820-7c11f21f68e4" style="max-width: 100%; height: auto; max-height: 1650px;"/>
 </p>
+
 
 # Bienvenidos a la Práctica de Programación Orientada a Objetos (POO)
 
