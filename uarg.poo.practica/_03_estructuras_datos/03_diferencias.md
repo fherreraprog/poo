@@ -1,5 +1,7 @@
 <p align="center">
-  <img width="792" alt="image" src="https://github.com/user-attachments/assets/bf72f843-1d0b-4d3a-b7c8-824be47a0780"/>
+  <img src="https://github.com/user-attachments/assets/86a0c51d-0003-4fb9-9b4e-78244ee78c7e" 
+       alt="Banner POO" 
+       style="max-width: 100%; height: auto;" />
 </p>
 
 ## **3. Diferencias clave entre Vector y ArrayList**
