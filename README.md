@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="2000px" height="1650px" alt="image" src="https://github.com/us<img width="2920" height="1080" alt="bitmap" src="https://github.com/user-attachments/assets/ffd5f815-247e-4986-9da1-4e762aad7ad3" />
-er-attachments/assets/1e5523d3-8ece-4319-a820-7c11f21f68e4" style="max-width: 100%; height: auto; max-height: 1650px;"/>
+  <img src="https://github.com/user-attachments/assets/86a0c51d-0003-4fb9-9b4e-78244ee78c7e" 
+       alt="Banner POO" 
+       style="max-width: 100%; height: auto;" />
 </p>
-
 
 # Bienvenidos a la Práctica de Programación Orientada a Objetos (POO)
 
