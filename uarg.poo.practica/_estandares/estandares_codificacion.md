@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86a0c51d-0003-4fb9-9b4e-78244ee78c7e" 
+       alt="Banner POO" 
+       style="max-width: 100%; height: auto;" />
+</p>
+
 # 📐 Estándares de Codificación – Práctica de POO (Java)
 
 Este documento define los **estándares mínimos de codificación** que deben respetarse en los trabajos prácticos de la materia **Programación Orientada a Objetos**.
