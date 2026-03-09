@@ -21,9 +21,10 @@ Ejemplo:
 ```java
 package tpN.ejercicioX_nombre.modelo;
 
+---
+
 ```
-🧱 Convenciones de nombres
-Clases
+🧱 Convenciones de nombres Clases
 
 Usar PascalCase
 
@@ -70,6 +71,7 @@ Nombre en MAYÚSCULAS
 ```java
 public static final int MAX_CANTIDAD = 100;
 ```
+---
 
 📝 Documentación con Javadoc
 📌 Documentación de la clase
@@ -168,19 +170,28 @@ public String toString() {
             '}';
 }
 ```
+---
 
 🎯 Buenas prácticas generales
 
 ✔ Una clase = una responsabilidad
+
 ✔ Atributos siempre privados
+
 ✔ Acceso mediante getters y setters
+
 ✔ Código legible antes que código “ingenioso”
+
 ✔ Sangrado consistente (4 espacios)
 
+
 ❌ Evitar métodos largos
+
 ❌ Evitar nombres genéricos (aux, var, x)
+
 ❌ Evitar lógica compleja sin explicar
 
+---
 🧠 Relación con la evaluación
 
 Estos estándares:
