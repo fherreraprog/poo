@@ -20,16 +20,51 @@ Su objetivo es:
 
 ## 📦 Organización de paquetes
 
+Cada ejercicio debe ubicarse dentro de su propio paquete y ser autocontenido, es decir, no debe depender de clases de otros ejercicios.
+
 - Los paquetes deben escribirse **en minúsculas**.
 - Deben reflejar el trabajo práctico y su rol.
 
 Ejemplo:
+
+Estructura general
+
+```
+tpN
+ ├─ ejercicio1_nombreProblema
+ │   ├─ modelo
+ │   ├─ vista
+ │   ├─ controlador
+ │   ├─ DatosPrueba.java
+ │   └─ Main.java
+ │
+ ├─ ejercicio2_otroProblema
+ │   ├─ modelo
+ │   ├─ vista
+ │   ├─ controlador
+ │   └─ Main.java
+ 
+
+```
+ 
+Convención de nombres para ejercicios
+
+Cada ejercicio debe nombrarse utilizando la siguiente convención:
+
+ejercicioNumero_nombreProblema
+
 ```java
 package tpN.ejercicioX_nombre.modelo;
 
----
 
 ```
+
+
+Esto permite identificar fácilmente el ejercicio dentro del trabajo práctico.
+
+
+
+---
 🧱 Convenciones de nombres Clases
 
 Usar PascalCase
