@@ -1,7 +1,8 @@
 <p align="center">
-    <img alt="Guía de commits" src="https://github.com/user-attachments/assets/1e5523d3-8ece-4319-a820-7c11f21f68e4" style="max-width:100%; height:auto;" />
+  <img src="https://github.com/user-attachments/assets/86a0c51d-0003-4fb9-9b4e-78244ee78c7e" 
+       alt="Banner POO" 
+       style="max-width: 100%; height: auto;" />
 </p>
-
 <h1 align="center">📌 Guía de Commits</h1>
 
 ---
