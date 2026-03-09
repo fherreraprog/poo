@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86a0c51d-0003-4fb9-9b4e-78244ee78c7e" 
+       alt="Banner POO" 
+       style="max-width: 100%; height: auto;" />
+</p>
+
 # Arquitectura MVC en Programación Orientada a Objetos
 
 ## 📌 Contexto de la materia
