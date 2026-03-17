@@ -22,37 +22,33 @@ public class EstanteControlador {
      * @param modelo El modelo del estante.
      * @param vista  La vista del estante.
      */
+
     public EstanteControlador(Estante modelo, EstanteVista vista) {
         this.modelo = modelo;
         this.vista = vista;
     }
 
-    /**
-     * Agrega un producto al estante.
-     *
-     * @param producto El producto a agregar.
-     */
     public void agregarProducto(Producto producto) {
-        if (producto != null && producto.getNombre() != null && !producto.getNombre().isEmpty()) {
-            modelo.agregarProducto(producto);
+
+        if (producto == null) {
+            vista.mostrarMensaje("Error: producto inválido.");
+            return;
+        }
+
+        boolean agregado = modelo.agregarProducto(producto);
+
+        if (agregado) {
             vista.mostrarMensaje("Producto agregado correctamente.");
         } else {
-            vista.mostrarMensaje("Error: Datos del producto no válidos.");
+            vista.mostrarMensaje("No se pudo agregar el producto.");
         }
     }
 
-    /**
-     * Busca un producto en el estante por su nombre y muestra los detalles.
-     *
-     * @param nombre El nombre del producto a buscar.
-     */
     public void buscarProducto(String nombre) {
-        if (nombre != null && !nombre.isEmpty()) {
-            Producto producto = modelo.buscarProducto(nombre);
-            vista.mostrarProducto(producto);
-        } else {
-            vista.mostrarMensaje("Error: El nombre del producto no puede ser nulo o vacío.");
-        }
+
+        Producto producto = modelo.buscarProducto(nombre);
+        vista.mostrarProducto(producto);
+
     }
 
     /**
@@ -61,24 +57,17 @@ public class EstanteControlador {
      * @param nombre El nombre del producto a eliminar.
      */
     public void eliminarProducto(String nombre) {
-        if (nombre != null && !nombre.isEmpty()) {
-            modelo.eliminarProducto(nombre);
+
+        boolean eliminado = modelo.eliminarProducto(nombre);
+
+        if (eliminado) {
+            vista.mostrarMensaje("Producto eliminado correctamente.");
         } else {
-            vista.mostrarMensaje("Error: El nombre del producto no puede ser nulo o vacío.");
+            vista.mostrarMensaje("Producto no encontrado.");
         }
     }
 
-    /**
-     * Muestra la lista de productos en el estante.
-     */
     public void mostrarProductos() {
-        vista.mostrarProductos(modelo.getProductos());
-    }
-
-    /**
-     * Inicia la interacción con el usuario mostrando el menú.
-     */
-    public void iniciar() {
-        vista.mostrarMenu();
+        vista.mostrarProductos(modelo.obtenerProductos());
     }
 }

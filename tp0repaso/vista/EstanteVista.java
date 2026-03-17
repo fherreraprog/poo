@@ -20,15 +20,29 @@ public class EstanteVista {
 
     /**
      * Constructor para crear un nuevo objeto EstanteVista.
-     *
-     * @param controlador El controlador del estante.
      */
     public EstanteVista() {
         this.scanner = new Scanner(System.in);
     }
     
+    /**
+     * Permite inyectar el controlador en la vista.
+     * @param controlador El controlador del estante.
+     */
     public void setControlador(EstanteControlador controlador) {
         this.controlador = controlador;
+    }
+
+    /**
+     * Inicia la aplicación.
+     * La vista es responsable de comenzar la interacción con el usuario.
+     */
+    public void iniciar() {
+        if (controlador == null) {
+            System.out.println("Error: El controlador no fue inicializado.");
+            return;
+        }
+        mostrarMenu();
     }
 
     /**
