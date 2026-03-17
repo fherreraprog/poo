@@ -1,8 +1,8 @@
-package tp0repaso.controlador;
+package tp0repaso.ejemplo1.controlador;
 
-import tp0repaso.modelo.Estante;
-import tp0repaso.modelo.Producto;
-import tp0repaso.vista.EstanteVista;
+import tp0repaso.ejemplo1.modelo.Estante;
+import tp0repaso.ejemplo1.modelo.Producto;
+import tp0repaso.ejemplo1.vista.EstanteVista;
 
 /**
  * La clase EstanteControlador actúa como intermediario entre el modelo y la vista.

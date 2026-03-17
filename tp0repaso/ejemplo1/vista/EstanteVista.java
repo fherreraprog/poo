@@ -1,7 +1,7 @@
-package tp0repaso.vista;
+package tp0repaso.ejemplo1.vista;
 
-import tp0repaso.controlador.EstanteControlador;
-import tp0repaso.modelo.Producto;
+import tp0repaso.ejemplo1.controlador.EstanteControlador;
+import tp0repaso.ejemplo1.modelo.Producto;
 import java.util.List;
 import java.util.Scanner;
 

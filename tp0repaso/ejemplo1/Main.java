@@ -1,8 +1,8 @@
-package tp0repaso;
+package tp0repaso.ejemplo1;
 
-import tp0repaso.controlador.EstanteControlador;
-import tp0repaso.modelo.Estante;
-import tp0repaso.vista.EstanteVista;
+import tp0repaso.ejemplo1.controlador.EstanteControlador;
+import tp0repaso.ejemplo1.modelo.Estante;
+import tp0repaso.ejemplo1.vista.EstanteVista;
 /**
  * La clase Main se encarga de iniciar la aplicación y mostrar el menú interactivo .
  *

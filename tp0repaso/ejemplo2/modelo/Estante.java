@@ -1,4 +1,4 @@
-package tp0repaso.modelo;
+package tp0repaso.ejemplo2.modelo;
 
 import java.util.ArrayList;
 import java.util.List;

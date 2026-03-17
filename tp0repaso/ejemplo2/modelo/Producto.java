@@ -1,4 +1,4 @@
-package tp0repaso.modelo;
+package tp0repaso.ejemplo2.modelo;
 
 /**
  * La clase Producto representa un producto en un sistema de inventario.
